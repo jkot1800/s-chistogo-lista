@@ -1,0 +1,159 @@
+body {
+  margin: 0;
+  background-color: #1e1e1e;
+  font-family: inter, sans-serif;
+  font-weight: 400;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ul,
+ol,
+blockquote {
+  margin: 0;
+  padding: 0;
+}
+
+.content-section {
+  width: 360px;
+  margin: auto;
+  min-height: 100px;
+  box-sizing: border-box;
+}
+
+.content-section_theme_dark {
+  background-color: #131313;
+  color: #f5f5f5;
+}
+
+.content-section_theme_bright {
+  background-color: #fee42a;
+  color: #131313;
+}
+
+.header-flex {
+  display: flex;
+  justify-content: space-between;
+  padding: 24px 20px 24px 20px;
+  height: 132px;
+}
+
+.header__logo {
+  width: 78.45px;
+}
+
+.ul-nav {
+  list-style: none;
+  display: flex;
+  flex-direction: column;
+  width: 75px;
+  height: 84px;
+  justify-content: space-between;
+}
+
+.nav-element {
+  color: #f5f5f5;
+}
+
+.nav-element:hover {
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.cover {
+  background-image: url("/images/cover.svg");
+  background-position: right;
+  background-size: 340px 216px;
+  background-repeat: no-repeat;
+  padding: 7px 24px 32px 20px;
+  font-family: "EB Garamond", serif;
+  font-weight: 400;
+  line-height: 1;
+}
+
+.cover-first-span {
+  display: block;
+  text-align: start;
+  font-size: 72px;
+  padding: 0;
+}
+
+.cover-second-span {
+  display: block;
+  text-align: center;
+  font-size: 72px;
+}
+
+.cover-third-span {
+  display: block;
+  text-align: end;
+  font-size: 72px;
+}
+
+.intro {
+  padding: 24px 20px 24px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.intro__heading {
+  display: flex;
+}
+
+.intro-title {
+  font-family: inter, sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  color: #ccc;
+}
+
+.intro__date {
+  color: #ccc;
+  font-size: 16px;
+  white-space: nowrap;
+}
+
+.intro__main-text {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.reasons {
+  padding: 40px 20px 40px 20px;
+  display: flex;
+  flex-direction: column;
+  row-gap: 32px;
+}
+
+.content-section__subtitle {
+  font-family: "EB Garamond";
+  font-weight: 500;
+  font-size: 28px;
+}
+.left-span-reasons {
+  display: block;
+  text-align: right;
+}
+
+.content-section__introduction {
+  font-size: 20px;
+}
+
+.content-section__list {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  padding: 0 0 0 16px;
+  
+}
+
+.content-section__list-accent {
+  font-weight: 700;
+}
