@@ -74,7 +74,7 @@ blockquote {
 }
 
 .cover {
-  background-image: url("/images/cover.svg");
+  background-image: url("../images/cover.svg");
   background-position: right;
   background-size: 340px 216px;
   background-repeat: no-repeat;
